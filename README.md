@@ -1,49 +1,49 @@
-# Gomoku AI
+# 五子棋 AI
 
-A Gomoku (Five in a Row) game with AI opponent using Minimax algorithm.
+使用 Minimax 算法的五子棋（五子连珠）游戏 AI 对手。
 
-## Features
+## 功能
 
-- Play against AI with Minimax algorithm
-- Choose to play as Black or White
-- Simple and intuitive graphical interface
-- Restart game and switch colors anytime
+- 使用 Minimax 算法与 AI 对战
+- 选择扮演黑棋或白棋
+- 简单直观的图形界面
+- 随时重启游戏并切换颜色
 
-## Installation
+## 安装
 
-### Option 1: Run from Source Code (requires Python)
+### 选项 1：从源代码运行（需要 Python）
 
-1. Install required packages:
+1. 安装所需包：
 ```bash
 pip install numpy pygame
 ```
 
-2. Run the game:
+2. 运行游戏：
 ```bash
 python gui.py
 ```
 
-### Option 2: Standalone Windows Executable
+### 选项 2：Windows 独立可执行文件
 
-1. Download `Gomoku.exe` from the `dist` folder
-2. Double-click to run (no Python installation required)
+1. 从 `dist` 文件夹下载 `Gomoku.exe`
+2. 双击运行（无需 Python 安装）
 
-## How to Play
+## 如何玩
 
-1. Start the game and choose your color:
-   - Click "Play Black" to play first
-   - Click "Play White" to play second
+1. 启动游戏并选择你的颜色：
+   - 点击 "执黑先行" 执黑棋先手
+   - 点击 "执白后行" 执白棋后手
 
-2. During your turn:
-   - Click on any intersection to place your piece
-   - Wait for AI to make its move
+2. 在你的回合期间：
+   - 点击任意交点放置棋子
+   - 等待 AI 完成它的回合
 
-3. Game Controls:
-   - Click anywhere after game ends to start a new game
-   - Choose your color again for the new game
+3. 游戏控制：
+   - 游戏结束后点击任意位置开始新游戏 
+   - 新游戏中再次选择你的颜色
 
-## Technical Details
+## 技术细节
 
-- Built with Python and Pygame
-- AI uses Minimax algorithm with Alpha-Beta pruning
-- Search depth of 4 moves for balanced performance
+- 使用 Python 和 Pygame 构建
+- AI 使用带有 Alpha-Beta 剪枝的 Minimax 算法
+- 搜索深度为 4 层以平衡性能
